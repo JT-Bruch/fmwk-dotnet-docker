@@ -5,8 +5,8 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>9c6a7d6f-1f34-4ab2-8382-aad12d568091</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
-    <DockerServiceName>fmwk-pluginwebapi</DockerServiceName>
+    <DockerServiceUrl>http://localhost:{ServicePort}/swagger</DockerServiceUrl>
+    <DockerServiceName>fmwkplugin-webapi</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.ci.build.yml" />

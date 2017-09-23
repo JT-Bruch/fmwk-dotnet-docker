@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  fmwk-pluginwebapi:
-    image: fmwk-pluginwebapi
+  fmwkplugin-webapi:
+    image: fmwkplugin-webapi
     build:
-      context: ./FmWk-PluginWebApi
+      context: ./FmWkPlugin-WebApi
       dockerfile: Dockerfile

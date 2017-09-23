@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  fmwk-pluginwebapi:
+  fmwkplugin-webapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
