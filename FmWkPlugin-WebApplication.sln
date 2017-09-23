@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-Entities", "FmWk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-Services", "FmWkPlugin-Services\FmWkPlugin-Services.csproj", "{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmWkPlugin-Services.Tests", "..\FmWkPlugin-Services.Tests\FmWkPlugin-Services.Tests.csproj", "{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-Services.Tests", "FmWkPlugin-Services.Tests\FmWkPlugin-Services.Tests.csproj", "{49264C90-7A30-4E67-89E1-7800DBCD927F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49264C90-7A30-4E67-89E1-7800DBCD927F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49264C90-7A30-4E67-89E1-7800DBCD927F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49264C90-7A30-4E67-89E1-7800DBCD927F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49264C90-7A30-4E67-89E1-7800DBCD927F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
