@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmWkPlugin-WebApi", "FmWkPlugin-WebApi\FmWkPlugin-WebApi.csproj", "{3DA9ABDE-CBC6-43B6-A7F7-154391749D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-WebApi", "FmWkPlugin-WebApi\FmWkPlugin-WebApi.csproj", "{3DA9ABDE-CBC6-43B6-A7F7-154391749D95}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C6A7D6F-1F34-4AB2-8382-AAD12D568091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmWkPlugin-Entities", "FmWkPlugin-Entities\FmWkPlugin-Entities.csproj", "{319472B1-BF88-4D4C-8D03-D637AF651099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-Entities", "FmWkPlugin-Entities\FmWkPlugin-Entities.csproj", "{319472B1-BF88-4D4C-8D03-D637AF651099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmWkPlugin-Services", "FmWkPlugin-Services\FmWkPlugin-Services.csproj", "{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FmWkPlugin-Services", "FmWkPlugin-Services\FmWkPlugin-Services.csproj", "{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FmWkPlugin-Services.Tests", "..\FmWkPlugin-Services.Tests\FmWkPlugin-Services.Tests.csproj", "{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E9DAB4-16FF-4E2D-9994-2ECAF278C0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530D1C4D-B484-4C60-8EA5-B71E2F6A978D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
