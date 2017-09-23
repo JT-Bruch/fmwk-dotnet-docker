@@ -2,7 +2,7 @@
 using FmWkPlugin_Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FmWk_PluginWebApi.Controllers
+namespace FmWkPlugin_WebApi.Controllers
 {
   [Route("api/[controller]")]
   public class ValuesController : Controller

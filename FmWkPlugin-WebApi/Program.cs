@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace FmWk_PluginWebApi
+namespace FmWkPlugin_WebApi
 {
   public class Program
   {

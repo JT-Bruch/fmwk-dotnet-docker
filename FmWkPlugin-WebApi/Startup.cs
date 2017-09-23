@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace FmWk_PluginWebApi
+namespace FmWkPlugin_WebApi
 {
   public class Startup
   {
